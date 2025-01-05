@@ -1,0 +1,76 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:#282828;
+    margin: 0;padding: 0;height:100vh;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    border: solid 2px white;
+    text-align: center;
+    background: #0fb3dc;
+}
+.container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed rgb(45, 156, 230);
+    
+}
+.contact h2{
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;margin-bottom: 10px;
+}
+.contact form{
+    width: 600px;
+    text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.input-box .input-feild{
+    width: 48.5%;
+}
+.item{
+    width: 100%;
+    padding: 18PX;
+    background: transparent;
+    border: 2px solid #0ef;
+border-radius: 6px;
+font-size: 16px;color: #ededed;margin: 12px 0 ;
+
+}
+
+.item::placeholder{
+    color: rgba(255, 255, 255, .3);
+}
+form .textarea-field .item{
+    resize: none;
+
+}
+form button{
+    padding: 12px 32px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .3s;
+}
+form button:hover{
+    box-shadow: none;
+}
